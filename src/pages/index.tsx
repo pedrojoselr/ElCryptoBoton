@@ -1,11 +1,10 @@
-import * as React from 'react';
-import type { NextPage } from 'next';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import Link from '../components/Link';
-import ProTip from '../components/ProTip';
-import Copyright from '../components/Copyright';
+import * as React from "react";
+import type { NextPage } from "next";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import Copyright from "../components/Copyright";
+import CryptoButton from "../components/CryptoButton";
 
 const Home: NextPage = () => {
   return (
@@ -13,19 +12,19 @@ const Home: NextPage = () => {
       <Box
         sx={{
           my: 4,
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
         }}
       >
         <Typography variant="h4" component="h1" gutterBottom>
-          Hola Pedrito qlq?
+          JA WENO LA VLOCCHAIN
         </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
-        <ProTip />
+        <CryptoButton variant="contained" />
+        <CryptoButton variant="contained" color="error" />
+        <CryptoButton variant="outlined" />
+        <CryptoButton variant="text" />
         <Copyright />
       </Box>
     </Container>
