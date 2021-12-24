@@ -6,10 +6,10 @@ Basic demo for web3 interactions.
 
 > this steps are focus around the implemetation of a button that access as blockchain interface for transfering tokens from a testnet.
 
-- [ ] Add a Button. _(in progress)_
-- [ ] Add informational text.
-- [ ] Minimal Styling for both of the before done task.
-- [ ] Connect to a chrome extenstion wallet.
+- [x] Add a Button. 
+- [x] Add informational text.
+- [x] Minimal Styling for both of the before done task.
+- [ ] Connect to a chrome extenstion wallet. _(in progress)_
   - [ ]
   - [ ]
   - [ ]
