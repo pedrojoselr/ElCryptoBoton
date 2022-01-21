@@ -3,8 +3,8 @@ import type { NextPage } from "next";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Copyright from "../components/Copyright";
-import CryptoButton from "../components/CryptoButton";
+import Copyright from "../1-Atoms/Copyright";
+import CryptoButton from "../1-Atoms/CryptoButton";
 
 const Home: NextPage = () => {
   return (

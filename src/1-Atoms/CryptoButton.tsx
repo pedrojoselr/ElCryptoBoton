@@ -2,9 +2,10 @@ import * as React from "react";
 import Button from "@mui/material/Button";
 
 const CryptoButton = (props:any) => {
+  const {bottonText} = props;
   return (
-    <Button sx={{ mb: 5, mt: 5 }} {...props}>
-      Crypto Botón
+    <Button {...props}>
+      {bottonText}
     </Button>
   );
 };
